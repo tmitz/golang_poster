@@ -9,10 +9,12 @@ import (
 	"os"
 	"path"
 
-	"github.com/tmitz/poster/lib/omdbapi"
+	"github.com/tmitz/poster/ch4/4_13/poster/lib/omdbapi"
 )
 
-const ImageDir = "posterimg"
+const (
+	ImageDir = "posterimg"
+)
 
 func main() {
 	title := flag.String("title", "", "映画のタイトルを英語で")
